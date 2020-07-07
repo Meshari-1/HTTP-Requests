@@ -1,0 +1,9 @@
+import requests
+
+
+r= requests.get('https://www.realmadrid.com/ar')
+
+
+
+
+print(r.text)
